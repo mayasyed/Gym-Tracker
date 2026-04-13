@@ -1,0 +1,8 @@
+Days,Days_Count,Total_Minutes_Asleep,Total_Time_In_Bed,Total_Hours_Asleep,Total_Hours_In_Bed,Average_Hours_Asleep,Average_Hours_In_Bed,Avg_Diff_Sleep_Time
+Sunday,55,24901,27693,415.02,461.55,7.55,8.39,0.85
+Monday,47,19685,21440,328.08,357.33,6.98,7.6,0.62
+Tuesday,65,26295,28814,438.25,480.23,6.74,7.39,0.65
+Wednesday,66,28689,31022,478.15,517.03,7.24,7.83,0.59
+Thursday,65,26154,28327,435.9,472.12,6.71,7.26,0.56
+Friday,57,23109,25368,385.15,422.8,6.76,7.42,0.66
+Saturday,58,24407,26754,406.78,445.9,7.01,7.69,0.67
