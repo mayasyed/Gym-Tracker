@@ -1,66 +1,79 @@
-# Mahanoor Shams | Data Analyst Portfolio
+# 🏋️ Fitness Tracker Dashboard
+
+A Power BI dashboard exploring the relationship between daily physical activity and sleep quality, built using real Fitbit data.
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=white)]()
+[![Dataset](https://img.shields.io/badge/Dataset-Fitbit%20CSV-blue)]()
+
+---
+
+## ⚡ TLDR
+
+Analysed 30 days of Fitbit data across 33 users to understand how movement patterns affect sleep. Built a multi-page Power BI dashboard with dynamic KPI cards, custom DAX measures, and an actionable smart alert system. Key finding: users who hit peak activity between 8am and 12pm consistently showed better sleep quality scores than those with irregular intensity patterns.
+
+---
+
+## 📊 Dashboard Preview
+
+![User Activity & Engagement Analytics](./preview.webp)
+
+> KPI cards showing daily step volume, energy expenditure, and sleep quality score. The dual-axis chart overlays average minutes asleep against average daily steps over time, with a peak engagement hours breakdown by hour of day.
+
+---
+
+## 🎯 Project Overview
+
+This project analyses how daily movement, intensity levels, and step counts correlate with sleep duration and quality. The goal is to surface actionable patterns that help users understand the impact of their activity habits on rest and recovery.
+
+---
+
+## 📁 Dataset
+
+| File | Description |
+|---|---|
+| `Activity_Clean.csv` | Daily activity summaries |
+| `Analyzed_Daily_Activity.csv` | Enriched activity metrics |
+| `Intensity_Clean.csv` | Activity intensity breakdowns |
+| `Sleep Clean.csv` | Sleep duration and quality records |
+| `dailyActivity_merged.csv` | Merged daily activity across users |
+| `hourlyIntensities_merged.csv` | Hourly intensity data |
+| `minuteStepsNarrow_merged.csv` | Minute-level step counts |
+| `sleepDay_merged.csv` | Daily sleep summaries |
+
+---
+
+## 🔧 Technical Details
+
+**DAX Measures built:**
+- Average sleep duration per user
+- Daily active minutes segmentation (sedentary, lightly active, fairly active, very active)
+- Step target achievement rate
+- Hourly intensity scoring
+- Smart alert logic for below-average activity trends
+
+**Data modelling:**
+- Star schema with activity, intensity, and sleep tables
+- Relationships built across merged CSV sources
+- Power Query used for cleaning, type casting, and null handling
+
+---
+
+## 💡 Key Findings
+
+- Users with consistently high active minutes between 8am and 12pm showed better average sleep quality scores
+- Irregular intensity patterns across the day correlated with shorter and more fragmented sleep
+- Average daily step volume of 7,638 fell below the 10,000 step benchmark for the cohort
+- Peak engagement hours were concentrated between 8am and 1pm, with a sharp drop in the afternoon
+
+---
+
+## 🛠 Tools Used
+
+Power BI, DAX, Power Query, Excel CSV
+
+---
+
+## 📬 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mahanoor%20Shams-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
-[![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/mahanoor.shams)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github&logoColor=white)](https://github.com/mayasyed)
-
-Data analyst with 2.5 years of experience building SQL pipelines, Power BI dashboards, and operational reporting for cross-functional teams. This portfolio showcases personal projects across customer analytics, business intelligence, and data storytelling.
-
----
-
-## 📌 Projects
-
-### 1. Customer Churn Analysis
-
-**Goal:** Identify high-risk customer segments and recommend actions to reduce early drop-off for a telecoms subscription business.
-
-**What this covers:**
-- SQL: churn metrics, cohort segmentation, aggregations
-- Python: data cleaning, exploratory analysis, visual storytelling
-- Tableau: interactive churn dashboard with segment filters
-
-**Key finding:** Month-to-month contract customers with fibre internet and no add-on services had the highest churn rate, accounting for a disproportionate share of revenue lost in the first 90 days.
-
-🔗 [View project folder](./customer-churn)
-🔗 [Live Tableau dashboard](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
-
----
-
-### 2. Fitness Tracker Dashboard
-
-**Goal:** Explore the relationship between daily physical activity and sleep quality using real Fitbit data, and surface actionable patterns for rest and recovery.
-
-**What this covers:**
-- Power BI: multi-page dashboard with KPI cards, trend lines, and activity/sleep correlation visuals
-- DAX: custom measures for average sleep duration, active minutes, step targets, and intensity segmentation
-- Data preparation: merging and cleaning multiple CSV sources across activity, intensity, and sleep tables
-
-**Key finding:** Users with consistently high active minutes during the day showed measurably better sleep duration, while irregular intensity patterns correlated with shorter and more fragmented rest.
-
-🔗 [View project repo](https://github.com/mayasyed/Gym-Tracker)
-
----
-
-## 📂 Project Structure
-
-Each project follows a consistent layout:
-
-```
-project-name/
-├── sql/           # Analytical queries
-├── python/        # Notebooks and scripts
-├── dashboards/    # Links to published BI dashboards
-└── insights.md    # Business conclusions and recommendations
-```
-
----
-
-## 🛠 Tools Used Across This Portfolio
-
-SQL, Python (pandas, matplotlib, seaborn), Power BI, DAX, Tableau, Excel
-
----
-
-## 📬 Get in Touch
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
+[![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github&logoColor=white)](https://github.com/mayasyed/Portfolio)
