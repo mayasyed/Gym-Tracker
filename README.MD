@@ -1,73 +1,66 @@
-# 🏋️ Fitness Tracker Dashboard
+# Mahanoor Shams | Data Analyst Portfolio
 
-A Power BI dashboard exploring the relationship between daily physical activity and sleep quality, built using real Fitbit data.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mahanoor%20Shams-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
+[![Tableau](https://img.shields.io/badge/Tableau-Public-orange?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/mahanoor.shams)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github&logoColor=white)](https://github.com/mayasyed)
 
----
-
-## 📊 Project Overview
-
-This project analyses how daily movement, intensity levels, and step counts correlate with sleep duration and quality. The goal is to surface actionable patterns that help users understand the impact of their activity habits on rest and recovery.
+Data analyst with 2.5 years of experience building SQL pipelines, Power BI dashboards, and operational reporting for cross-functional teams. This portfolio showcases personal projects across customer analytics, business intelligence, and data storytelling.
 
 ---
 
-## 🗂️ Dataset
+## 📌 Projects
 
-The following CSV files form the foundation of this project:
+### 1. Customer Churn Analysis
 
-| File | Description |
-|---|---|
-| `Activity_Clean.csv` | Daily activity summaries |
-| `Analyzed_Daily_Activity.csv` | Enriched activity metrics |
-| `Intensity_Clean.csv` | Activity intensity breakdowns |
-| `Sleep_Clean.csv` | Sleep duration and quality data |
-| `dailyActivity_merged.csv` | Merged daily activity records |
-| `hourlyIntensities_merged.csv` | Hourly intensity logs |
-| `minuteStepsNarrow_merged.csv` | Minute-level step counts |
-| `sleepDay_merged.csv` | Daily sleep logs |
+**Goal:** Identify high-risk customer segments and recommend actions to reduce early drop-off for a telecoms subscription business.
 
-Data source: Fitbit fitness tracker data (public dataset via Kaggle)
+**What this covers:**
+- SQL: churn metrics, cohort segmentation, aggregations
+- Python: data cleaning, exploratory analysis, visual storytelling
+- Tableau: interactive churn dashboard with segment filters
 
----
+**Key finding:** Month-to-month contract customers with fibre internet and no add-on services had the highest churn rate, accounting for a disproportionate share of revenue lost in the first 90 days.
 
-## 🛠️ Tools Used
-
-- **Power BI Desktop** for data modelling and visualisation
-- **DAX** for calculated measures and KPIs
-- **Power Query** for data cleaning and transformation
+🔗 [View project folder](./customer-churn)
+🔗 [Live Tableau dashboard](https://public.tableau.com/app/profile/mahanoor.shams/viz/TelcoCustomerChurn_17673780438080/CustomerChurnOverview)
 
 ---
 
-## 📈 Key Features
+### 2. Fitness Tracker Dashboard
 
-- Correlation analysis between daily steps and sleep duration
-- Activity intensity breakdown by time of day
-- Sleep quality trends over time
-- KPI cards for average steps, calories, and sleep hours
-- Date range filtering for flexible exploration
+**Goal:** Explore the relationship between daily physical activity and sleep quality using real Fitbit data, and surface actionable patterns for rest and recovery.
 
----
+**What this covers:**
+- Power BI: multi-page dashboard with KPI cards, trend lines, and activity/sleep correlation visuals
+- DAX: custom measures for average sleep duration, active minutes, step targets, and intensity segmentation
+- Data preparation: merging and cleaning multiple CSV sources across activity, intensity, and sleep tables
 
-## 💡 Key Insights
+**Key finding:** Users with consistently high active minutes during the day showed measurably better sleep duration, while irregular intensity patterns correlated with shorter and more fragmented rest.
 
-- Higher step counts on a given day tend to correlate with longer sleep that night
-- Peak activity intensity is concentrated in early morning and early evening windows
-- Days with very low activity show more variable sleep patterns
+🔗 [View project repo](https://github.com/mayasyed/Gym-Tracker)
 
 ---
 
-## 🚀 How to View
+## 📂 Project Structure
 
-1. Download `Fitness_Tracker.pbix`
-2. Open in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-3. Explore the report pages using the date slicer and filters
+Each project follows a consistent layout:
+
+```
+project-name/
+├── sql/           # Analytical queries
+├── python/        # Notebooks and scripts
+├── dashboards/    # Links to published BI dashboards
+└── insights.md    # Business conclusions and recommendations
+```
 
 ---
 
-## 👤 Author
+## 🛠 Tools Used Across This Portfolio
 
-**Mahanoor** — BI and Data Analyst based in London  
-[LinkedIn](https://www.linkedin.com/in/) | [GitHub](https://github.com/mayasyed)
+SQL, Python (pandas, matplotlib, seaborn), Power BI, DAX, Tableau, Excel
 
 ---
 
-*Built as part of a personal analytics portfolio to demonstrate Power BI, DAX, and data storytelling skills.*
+## 📬 Get in Touch
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
