@@ -37,8 +37,9 @@ This project analyses how daily movement, intensity levels, and step counts corr
 | `Sleep Clean.csv` | Sleep duration and quality records |
 | `dailyActivity_merged.csv` | Merged daily activity across users |
 | `hourlyIntensities_merged.csv` | Hourly intensity data |
-| `minuteStepsNarrow_merged.csv` | Minute-level step counts |
 | `sleepDay_merged.csv` | Daily sleep summaries |
+
+> **Note:** The raw minute-level step file (~34 MB) is not stored in this repo to keep it lightweight. All raw data comes from the public [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) dataset on Kaggle.
 
 ---
 
