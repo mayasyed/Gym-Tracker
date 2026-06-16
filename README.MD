@@ -2,14 +2,14 @@
 
 A Power BI dashboard exploring the relationship between daily physical activity and sleep quality, built using real Fitbit data.
 
-[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=white)]()
-[![Dataset](https://img.shields.io/badge/Dataset-Fitbit%20CSV-blue)]()
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=white)
+[![Dataset](https://img.shields.io/badge/Dataset-Fitbit%20(Kaggle)-blue)](https://www.kaggle.com/datasets/arashnic/fitbit)
 
 ---
 
 ## ⚡ TLDR
 
-Analysed 30 days of Fitbit data across 33 users to understand how movement patterns affect sleep. Built a multi-page Power BI dashboard with dynamic KPI cards, custom DAX measures, and an actionable smart alert system. Key finding: users who hit peak activity between 8am and 12pm consistently showed better sleep quality scores than those with irregular intensity patterns.
+Analysed 30 days of Fitbit data across 33 users to understand how movement patterns affect sleep. Built a multi-page Power BI dashboard with dynamic KPI cards, custom DAX measures, and a DAX flag that highlights days below a user's average activity. Key finding: users who hit peak activity between 8am and 12pm consistently showed better sleep quality scores than those with irregular intensity patterns.
 
 ---
 
@@ -50,7 +50,7 @@ This project analyses how daily movement, intensity levels, and step counts corr
 - Daily active minutes segmentation (sedentary, lightly active, fairly active, very active)
 - Step target achievement rate
 - Hourly intensity scoring
-- Smart alert logic for below-average activity trends
+- A DAX measure that flags days below the user's average activity
 
 **Data modelling:**
 - Star schema with activity, intensity, and sleep tables
@@ -77,4 +77,4 @@ Power BI, DAX, Power Query, Excel CSV
 ## 📬 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mahanoor%20Shams-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahanoor-shams)
-[![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github&logoColor=white)](https://github.com/mayasyed/Portfolio)
+[![GitHub](https://img.shields.io/badge/GitHub-mayasyed-black?logo=github&logoColor=white)](https://github.com/mayasyed)
